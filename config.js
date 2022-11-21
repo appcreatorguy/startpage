@@ -162,26 +162,26 @@ const CONFIG = {
   // ┴─┘┴└─┘ ┴ └─┘
 
   // First Links Container
-  secondlistsContainer: [
+  firstlistsContainer: [
     {
-      icon: "music",
+      icon: "house-user",
       id: "1",
       links: [
         {
-          name: "Inspirational",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          name: "Spotify",
+          link: "https://www.spotify.com"
         },
         {
-          name: "Classic",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          name: "Reddit",
+          link: "https://www.reddit.com"
         },
         {
-          name: "Oldies",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          name: "Tumblr",
+          link: "https://www.tumblr.com"
         },
         {
-          name: "Rock",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          name: "Hacker News",
+          link: "https://news.ycombinator.com"
         }
       ]
     },
@@ -210,7 +210,7 @@ const CONFIG = {
   ],
 
   // Second Links Container
-  firstListsContainer: [
+  secondListsContainer: [
     {
       icon: "house-user",
       id: "1",
