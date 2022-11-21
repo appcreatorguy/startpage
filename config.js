@@ -162,7 +162,7 @@ const CONFIG = {
   // ┴─┘┴└─┘ ┴ └─┘
 
   // First Links Container
-  firstlistsContainer: [
+  secondlistsContainer: [
     {
       icon: "music",
       id: "1",
@@ -210,7 +210,7 @@ const CONFIG = {
   ],
 
   // Second Links Container
-  secondListsContainer: [
+  firstListsContainer: [
     {
       icon: "house-user",
       id: "1",
@@ -261,7 +261,7 @@ const CONFIG = {
   // If themeButton is set to false, the theme can only be set in this file.
   // Disabling the weather component may cause issues with location-based light/dark switching.
   componentsEnabled: {
-    searchBar: true,
+    searchBar: false,
     themeButton: true,
     clock: true,
     greeter: true,
