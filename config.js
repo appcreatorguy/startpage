@@ -20,7 +20,7 @@ const CONFIG = {
   flashSeparator: false,
   
   // Theme
-  theme: "bento",
+  theme: "catppuccin-frappe",
   imageBackground: false,
   imageUrl: "background.jpg", // place in ./src/assets/images/ and provide the file name. Alternatively, provide a URL to an image. If the page is served over https, you may have issues loading images from insecure origins.
   themes: [   // List of installed themes, add your own themes in ./src/assets/css/themes and include it in the array below.
@@ -38,7 +38,7 @@ const CONFIG = {
   ],
 
   // Search Bar
-  searchBar: true,
+  searchBar: false,
   searchEngine: "google", // google, ddg
   barStyle: "bento", // bento, minimal, boxy, rounded
   barPlaceholder: "", // if blank, use search engine name. Set to ' ' for no placeholder.
@@ -54,7 +54,7 @@ const CONFIG = {
   bentoLayout: "bento", // 'bento', 'lists', 'buttons'
 
   // Weather
-  weatherKey: "YourOpenWeatherMapAPIKey", // Write here your API Key
+  weatherKey: "a94d362c807d21bec19e3359029bbe58", // Write here your API Key
   weatherIcons: "OneDark", // 'Onedark', 'Nord', 'Dark', 'White'
   weatherUnit: "C", // 'F', 'C'
   language: "en", // More languages in https://openweathermap.org/current#multi
@@ -73,7 +73,7 @@ const CONFIG = {
 
   // Switch dark theme automatically from sunrise to sunset. Pulls from the browsers location, or falls back to the defaults if not.
   // Requires an OpenWeatherMap API key.
-  changeThemeByLocation: false,
+  changeThemeByLocation: true,
 
   // ┌┐ ┬ ┬┌┬┐┌┬┐┌─┐┌┐┌┌─┐
   // ├┴┐│ │ │  │ │ ││││└─┐
@@ -90,13 +90,13 @@ const CONFIG = {
       id: "2",
       name: "Mail",
       icon: "envelope",
-      link: "https://mail.protonmail.com/"
+      link: "https://mail.google.com/"
     },
     {
       id: "3",
-      name: "Todoist",
+      name: "Classroom",
       icon: "list-ol",
-      link: "https://todoist.com"
+      link: "https://classroom.google.com"
     },
     {
       id: "4",
@@ -112,9 +112,9 @@ const CONFIG = {
     },
     {
       id: "6",
-      name: "Odysee",
+      name: "YouTube",
       icon: "fab-youtube",
-      link: "https://odysee.com/"
+      link: "https://youtube.com/"
     }
   ],
 
@@ -139,9 +139,9 @@ const CONFIG = {
     },
     {
       id: "4",
-      name: "Amazon",
-      icon: "fab-amazon",
-      link: "https://amazon.com/"
+      name: "Last.fm",
+      icon: "fab-lastfm",
+      link: "https://last.fm/"
     },
     {
       id: "5",
@@ -224,12 +224,12 @@ const CONFIG = {
           link: "https://www.reddit.com"
         },
         {
-          name: "Hashnode",
+          name: "Tumblr",
           link: "https://www.hashnode.com"
         },
         {
-          name: "Pocket",
-          link: "https://www.pocket.com"
+          name: "Hacker News",
+          link: "https://news.ycombinator.com"
         }
       ]
     },
@@ -251,7 +251,7 @@ const CONFIG = {
         },
         {
           name: "Repos",
-          link: "https://github.com/migueravila"
+          link: "https://github.com/appcreatorguy"
         }
       ]
     }
