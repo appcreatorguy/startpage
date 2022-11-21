@@ -73,7 +73,7 @@ const CONFIG = {
 
   // Switch dark theme automatically from sunrise to sunset. Pulls from the browsers location, or falls back to the defaults if not.
   // Requires an OpenWeatherMap API key.
-  changeThemeByLocation: true,
+  changeThemeByLocation: false,
 
   // ┌┐ ┬ ┬┌┬┐┌┬┐┌─┐┌┐┌┌─┐
   // ├┴┐│ │ │  │ │ ││││└─┐
@@ -164,24 +164,24 @@ const CONFIG = {
   // First Links Container
   firstlistsContainer: [
     {
-      icon: "house-user",
+      icon: "music",
       id: "1",
       links: [
         {
-          name: "Spotify",
-          link: "https://www.spotify.com"
+          name: "Inspirational",
+          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
         },
         {
-          name: "Reddit",
-          link: "https://www.reddit.com"
+          name: "Classic",
+          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
         },
         {
-          name: "Tumblr",
-          link: "https://www.tumblr.com"
+          name: "Oldies",
+          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
         },
         {
-          name: "Hacker News",
-          link: "https://news.ycombinator.com"
+          name: "Rock",
+          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
         }
       ]
     },
@@ -261,7 +261,7 @@ const CONFIG = {
   // If themeButton is set to false, the theme can only be set in this file.
   // Disabling the weather component may cause issues with location-based light/dark switching.
   componentsEnabled: {
-    searchBar: false,
+    searchBar: true,
     themeButton: true,
     clock: true,
     greeter: true,
