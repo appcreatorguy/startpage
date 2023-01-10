@@ -96,7 +96,7 @@ const CONFIG = {
       id: "3",
       name: "Classroom",
       icon: "list-ol",
-      link: "https://classroom.google.com"
+      link: "https://classroom.google.com/a/not-turned-in/all"
     },
     {
       id: "4",
