@@ -12,7 +12,7 @@ const CONFIG = {
 
   // General
   name: "Manas",
-  openInNewTab: true,
+  openInNewTab: false,
   title: "Bento",
 
   // Clock
