@@ -190,12 +190,12 @@ const CONFIG = {
       id: "2",
       links: [
         {
-          name: "Linkedin",
-          link: "https://www.linkedin.com"
+          name: "Pure Maths Y2",
+          link: "https://www.physicsandmathstutor.com/maths-revision/solutionbanks/edexcel-pure-maths-year-2/"
         },
         {
-          name: "Dribbble",
-          link: "https://www.dribbble.com"
+          name: "Stats & Mech Y2",
+          link: "https://www.physicsandmathstutor.com/maths-revision/solutionbanks/edexcel-statistics-mechanics-year-2/"
         },
         {
           name: "Trello",
