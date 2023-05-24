@@ -18,12 +18,13 @@ const CONFIG = {
   // Clock
   twelveHourFormat: false,
   flashSeparator: false,
-  
+
   // Theme
   theme: "catppuccin-frappe",
   imageBackground: false,
   imageUrl: "background.jpg", // place in ./src/assets/images/ and provide the file name. Alternatively, provide a URL to an image. If the page is served over https, you may have issues loading images from insecure origins.
-  themes: [   // List of installed themes, add your own themes in ./src/assets/css/themes and include it in the array below.
+  themes: [
+    // List of installed themes, add your own themes in ./src/assets/css/themes and include it in the array below.
     "arc",
     "bento",
     "catppuccin-frappe",
@@ -34,7 +35,7 @@ const CONFIG = {
     "nord",
     "sakura",
     "solarized",
-    "summer"
+    "summer",
   ],
 
   // Search Bar
@@ -84,38 +85,38 @@ const CONFIG = {
       id: "1", // entry ID, don't modify.
       name: "Github", // set the name of the card
       icon: "fab-github", // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
-      link: "https://github.com/" // provide a link to the page.
+      link: "https://github.com/", // provide a link to the page.
     },
     {
       id: "2",
       name: "Mail",
       icon: "envelope",
-      link: "https://mail.google.com/"
+      link: "https://mail.google.com/",
     },
     {
       id: "3",
       name: "Classroom",
       icon: "list-ol",
-      link: "https://classroom.google.com/a/not-turned-in/all"
+      link: "https://classroom.google.com/a/not-turned-in/all",
     },
     {
       id: "4",
       name: "Calendar",
       icon: "calendar",
-      link: "https://calendar.google.com/calendar/r"
+      link: "https://calendar.google.com/calendar/r",
     },
     {
       id: "5",
       name: "Reddit",
       icon: "fab-reddit",
-      link: "https://reddit.com"
+      link: "https://reddit.com",
     },
     {
       id: "6",
       name: "YouTube",
       icon: "fab-youtube",
-      link: "https://youtube.com/"
-    }
+      link: "https://youtube.com/",
+    },
   ],
 
   secondButtonsContainer: [
@@ -123,38 +124,38 @@ const CONFIG = {
       id: "1",
       name: "Music",
       icon: "fab-spotify",
-      link: "https://open.spotify.com"
+      link: "https://open.spotify.com",
     },
     {
       id: "2",
       name: "twitter",
       icon: "fab-twitter",
-      link: "https://twitter.com/"
+      link: "https://twitter.com/",
     },
     {
       id: "3",
       name: "bot",
       icon: "fab-discord",
-      link: "https://discord.com/app"
+      link: "https://discord.com/app",
     },
     {
       id: "4",
       name: "Last.fm",
       icon: "fab-lastfm",
-      link: "https://last.fm/"
+      link: "https://last.fm/",
     },
     {
       id: "5",
       name: "Hashnode",
       icon: "fab-hashnode",
-      link: "https://hashnode.com/"
+      link: "https://hashnode.com/",
     },
     {
       id: "6",
       name: "Figma",
       icon: "fab-figma",
-      link: "https://figma.com/"
-    }
+      link: "https://figma.com/",
+    },
   ],
 
   // ┬  ┬┌─┐┌┬┐┌─┐
@@ -169,44 +170,44 @@ const CONFIG = {
       links: [
         {
           name: "Spotify",
-          link: "https://www.spotify.com"
+          link: "https://www.spotify.com",
         },
         {
           name: "Reddit",
-          link: "https://www.reddit.com"
+          link: "https://www.reddit.com",
         },
         {
           name: "Tumblr",
-          link: "https://www.tumblr.com"
+          link: "https://www.tumblr.com",
         },
         {
           name: "Hacker News",
-          link: "https://news.ycombinator.com"
-        }
-      ]
+          link: "https://news.ycombinator.com",
+        },
+      ],
     },
     {
       icon: "coffee",
       id: "2",
       links: [
         {
-          name: "Pure Maths Y2",
-          link: "https://www.physicsandmathstutor.com/maths-revision/solutionbanks/edexcel-pure-maths-year-2/"
+          name: "Core Pure 1",
+          link: "https://www.physicsandmathstutor.com/maths-revision/solutionbanks/edexcel-core-pure-maths-1/",
         },
         {
           name: "Stats & Mech Y2",
-          link: "https://www.physicsandmathstutor.com/maths-revision/solutionbanks/edexcel-statistics-mechanics-year-2/"
+          link: "https://www.physicsandmathstutor.com/maths-revision/solutionbanks/edexcel-statistics-mechanics-year-2/",
         },
         {
           name: "Trello",
-          link: "https://www.trello.com"
+          link: "https://www.trello.com",
         },
         {
           name: "Slack",
-          link: "https://www.slack.com"
-        }
-      ]
-    }
+          link: "https://www.slack.com",
+        },
+      ],
+    },
   ],
 
   // Second Links Container
@@ -217,21 +218,21 @@ const CONFIG = {
       links: [
         {
           name: "Spotify",
-          link: "https://www.spotify.com"
+          link: "https://www.spotify.com",
         },
         {
           name: "Reddit",
-          link: "https://www.reddit.com"
+          link: "https://www.reddit.com",
         },
         {
           name: "Tumblr",
-          link: "https://www.tumblr.com"
+          link: "https://www.tumblr.com",
         },
         {
           name: "Hacker News",
-          link: "https://news.ycombinator.com"
-        }
-      ]
+          link: "https://news.ycombinator.com",
+        },
+      ],
     },
     {
       icon: "fab-github",
@@ -239,22 +240,22 @@ const CONFIG = {
       links: [
         {
           name: "Front",
-          link: "https://www.reddit.com/r/Frontend/"
+          link: "https://www.reddit.com/r/Frontend/",
         },
         {
           name: "Rust",
-          link: "https://www.reddit.com/r/rust/"
+          link: "https://www.reddit.com/r/rust/",
         },
         {
           name: "Go",
-          link: "https://www.reddit.com/r/golang/"
+          link: "https://www.reddit.com/r/golang/",
         },
         {
           name: "Repos",
-          link: "https://github.com/appcreatorguy"
-        }
-      ]
-    }
+          link: "https://github.com/appcreatorguy",
+        },
+      ],
+    },
   ],
 
   // Set any of the below options to false to disable drawing the component on the page.
@@ -266,9 +267,8 @@ const CONFIG = {
     clock: true,
     greeter: true,
     date: true,
-    weather: true
-  }
-
+    weather: true,
+  },
 };
 
 export const config = CONFIG;
