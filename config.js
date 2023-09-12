@@ -187,7 +187,7 @@ const CONFIG = {
       ],
     },
     {
-      icon: "coffee",
+      icon: "book",
       id: "2",
       links: [
         {
@@ -199,8 +199,8 @@ const CONFIG = {
           link: "https://www.physicsandmathstutor.com/maths-revision/solutionbanks/edexcel-statistics-mechanics-year-2/",
         },
         {
-          name: "Trello",
-          link: "https://www.trello.com",
+          name: "Notion",
+          link: "https://www.notion.so",
         },
         {
           name: "Slack",
