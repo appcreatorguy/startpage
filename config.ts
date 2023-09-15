@@ -178,7 +178,7 @@ export const config: Config = {
           },
           {
             name: "Tumblr",
-            url: "https://www.tumblr.com,
+            url: "https://www.tumblr.com",
           },
           {
             name: "Hacker News",
